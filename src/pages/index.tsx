@@ -1,3 +1,5 @@
+import * as React from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -10,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <p className='text-2xl font-bold'>M. Rizki Aiman - NextJS Boilerplate 📝</p>
+        <p className="text-2xl font-bold">M. Rizki Aiman - NextJS Boilerplate 📝</p>
       </main>
       <footer />
     </div>
